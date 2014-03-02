@@ -1,0 +1,14 @@
+<phpunit
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/3.7/phpunit.xsd"
+        colors="true"
+    >
+    <testsuites>
+        <testsuite name="MovieSorter Tests">
+            <directory>./tests/MovieSorter</directory>
+        </testsuite>
+        <testsuite name="StringExploder Tests">
+            <directory>tests/StringExploder</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

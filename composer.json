@@ -1,0 +1,19 @@
+{
+    "name": "stephenfrank/moviesorter",
+    "authors": [
+        {
+            "name": "Stephen Frank",
+            "email": "stephen@flowsa.com"
+        }
+    ],
+		"autoload": {
+			"psr-0": {
+				"StephenFrank\\MovieSorter\\": "src",
+				"StephenFrank\\StringExploder\\": "src"
+			}
+		},
+    "require": {
+        "symfony/console": "2.4.x",
+        "illuminate/database": "4.1.x"
+    }
+}
